@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "572919863153",
+    "project_id": "myproject-903b4",
+    "storage_bucket": "myproject-903b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572919863153:android:f3c30c2f2efe8f1a4848d0",
+        "android_client_info": {
+          "package_name": "com.nellai.codemagic_sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ORpZqg5-7cdob96r8EhXOque69OKVVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
