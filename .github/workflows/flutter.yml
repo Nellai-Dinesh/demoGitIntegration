@@ -39,9 +39,6 @@ jobs:
           name: app-release
           path: build/app/outputs/flutter-apk/app-release.apk
 
-      - name: Install Firebase CLI
-        run: curl -sL https://firebase.tools | bash
-
       # 🔥 Firebase App Distribution step
       - name: Upload to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
