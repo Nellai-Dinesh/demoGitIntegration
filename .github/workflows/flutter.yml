@@ -47,7 +47,7 @@ jobs:
 
       - name: Publish to Play Store
         working-directory: android
-        run: ./gradlew publishRelease
+        run: ./gradlew publishReleaseBundle
 
       # 🔥 Firebase App Distribution step
       # - name: Upload to Firebase App Distribution
