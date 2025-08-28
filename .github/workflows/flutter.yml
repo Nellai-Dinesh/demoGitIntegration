@@ -46,6 +46,7 @@ jobs:
         run: flutter build appbundle --release
 
       - name: Publish to Play Store
+        working-directory: android
         run: ./gradlew publishRelease
 
       # 🔥 Firebase App Distribution step
