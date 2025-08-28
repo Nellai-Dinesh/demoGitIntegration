@@ -7,7 +7,7 @@ plugins {
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
 
-    id "com.github.triplet.play" version "3.8.6"
+    id "com.github.triplet.play" version "3.9.1"
 }
 
 play {
@@ -18,7 +18,7 @@ play {
 
 android {
     namespace = "com.nellai.codemagic_sample"
-    compileSdk = 34
+    compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
