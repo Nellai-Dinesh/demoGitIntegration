@@ -6,8 +6,14 @@ plugins {
     id "kotlin-android"
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
-}
 
+    id "com.github.triplet.play"
+
+play {
+    serviceAccountCredentials = file("play-account.json")
+    defaultToAppBundles = true
+    track = "internal" // or production
+}
 android {
     namespace = "com.nellai.codemagic_sample"
     compileSdk = flutter.compileSdkVersion
