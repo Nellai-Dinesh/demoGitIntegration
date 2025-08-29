@@ -11,7 +11,7 @@ plugins {
 }
 
 play {
-    serviceAccountCredentials = file("play-account.json")
+    serviceAccountCredentials = file("${rootDir}/app/play-account.json")
     defaultToAppBundles = true
     track = "internal" // or production
 }
