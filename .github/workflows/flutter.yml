@@ -42,6 +42,8 @@ jobs:
       -  name: Decode Service Account
          run: echo '${{ secrets.PLAY_STORE_SERVICE_ACCOUNT }}' > android/app/play-account.json
 
+      - name: Check JSON validity
+        run: cat android/app/play-account.json | jq 
 
       - name: Build App Bundle
         run: flutter build appbundle --release
