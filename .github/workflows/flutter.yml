@@ -39,8 +39,9 @@ jobs:
       #     name: app-release
       #     path: build/app/outputs/flutter-apk/app-release.apk
 
-      - name: Decode Service Account
-        run: echo '${{ secrets.PLAY_STORE_SERVICE_ACCOUNT }}' > $GITHUB_WORKSPACE/play-account.json
+      -  name: Decode Service Account
+         run: echo '${{ secrets.PLAY_STORE_SERVICE_ACCOUNT }}' > android/play-account.json
+
 
       - name: Build App Bundle
         run: flutter build appbundle --release
