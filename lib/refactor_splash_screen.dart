@@ -1,6 +1,7 @@
-```dart
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+//Add Some
 
 /// A splash screen that displays an app logo and navigates to the home screen after a delay.
 class SplashScreen extends StatefulWidget {
@@ -47,4 +48,3 @@ class _SplashScreenState extends State<SplashScreen> {
     precacheImage(const AssetImage('assets/app_logo.png'), context);
   }
 }
-```
